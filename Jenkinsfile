@@ -8,5 +8,5 @@ pipeline
 }
 {
 steps
-sh 'echo $JAVA_Home'
+sh 'echo $JAVA_HOME'
 }
