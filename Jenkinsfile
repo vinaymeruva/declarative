@@ -6,5 +6,7 @@ pipeline
     stage('shell execute')
   }
 }
+{
 steps
-sh'echo $java_Home'
+sh 'echo $java_Home'
+}
